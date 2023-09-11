@@ -6,7 +6,6 @@ logging:
 advancedTypescriptSupport:
   enabled: false
 sensitiveCodepaths:
-  - "index.js"
 allowedAuthors:
   usernames:
     - "joshcummingsdesign"
