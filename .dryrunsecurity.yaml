@@ -1,0 +1,9 @@
+outputDir: tmp/dryrun
+logging:
+  logLevel: debug
+  logToConsole: false
+  logOutputFile: tmp/log
+advancedTypescriptSupport:
+  enabled: false
+sensitiveCodepaths:
+  - "app.js"
