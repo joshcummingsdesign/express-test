@@ -1,4 +1,4 @@
-name: DryRun
+name: dryrun action main
 on:
   workflow_dispatch:
   pull_request:
@@ -11,7 +11,7 @@ jobs:
     permissions: read-all
     steps:
       - uses: actions/checkout@v3
-      - uses: dryrunsecurity/main
+      - uses: dryrunsecurity/dryrunsec-action@main
         with:
           pull_number: ${{ github.event.pull_request.number }}
           gh_token: ${{ secrets.GITHUB_TOKEN }}
