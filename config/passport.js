@@ -33,7 +33,7 @@ passport.deserializeUser((id, done) => {
  */
 passport.use(
   new LocalStrategy({ usernameField: "email" }, (email, password, done) => {
-    // edit
+    // edit again...
     User.findOne({ email: email.toLowerCase() }, (err, user) => {
       if (err) {
         return done(err);
