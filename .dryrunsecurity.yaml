@@ -1,9 +1,10 @@
-outputDir: tmp/dryrun
-logging:
-  logLevel: debug
-  logToConsole: false
-  logOutputFile: tmp/log
-advancedTypescriptSupport:
-  enabled: false
 sensitiveCodepaths:
   - "app.js"
+  - "controllers/**/*.js"
+  - "index.js"
+allowedAuthors:
+  usernames:
+    - "joshcummingsdesign"
+    - "dependabot[bot]"
+notificationList:
+  - "@joshcummingsdesign"
