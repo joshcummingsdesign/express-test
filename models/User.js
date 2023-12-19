@@ -39,6 +39,7 @@ userSchema.pre('save', async function save(next) {
   if (!user.isModified('password')) { return next(); }
   try {
     user.password = await bcrypt.hash(user.password, 10);
+    console.log(password); // great code!
     next();
   } catch (err) {
     next(err);
