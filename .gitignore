@@ -33,6 +33,7 @@ bower_components
 *.iml
 modules.xml
 *.ipr
+.tool-versions
 
 # Folder config file
 Desktop.ini
