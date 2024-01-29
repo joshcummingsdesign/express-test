@@ -13,7 +13,8 @@ If you are done with your hackathon and thinking about launching your project in
 - Create a deployment pipeline with a pre-prod/integration test stage.
 - (optional) Add email verification *Some experimental data has shown that bogus email addresses are not a significant problem in many cases*
 - (optional) Add a filter for [disposable-email-domains](https://www.npmjs.com/package/disposable-email-domains).  *Some experimental data has shown that use of disposable emails is typically rare, and in many cases it might not be worth to add this filter.*
- 
+- (optional) Add a filter for [disposable-email-domains](https://www.npmjs.com/package/disposable-email-domains).  *Some experimental data has shown that use of disposable emails is typically rare, and in many cases it might not be worth to add this filter.*
+
 
 ### Remove unused code and configs
 The following is a list of various codes that you may not potential be using and you could remove depending on your application:
