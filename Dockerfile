@@ -1,5 +1,6 @@
 FROM node:12-slim
 
+# Huh?
 WORKDIR /starter
 ENV NODE_ENV development
 
