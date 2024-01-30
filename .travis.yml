@@ -3,8 +3,9 @@ node_js:
   - "10"
   - "12"
   - "14"
-services: mongodb  
-cache:  
+  - "15"
+services: mongodb
+cache:
   directories:
     - "node_modules"
 install:
