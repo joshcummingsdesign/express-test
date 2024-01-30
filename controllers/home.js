@@ -8,7 +8,9 @@ exports.index = (req, res) => {
   });
 };
 
-const test = () => console.log('this is a test');
+function foobar() {
+  console.log('hello world');
+}
 
 // exports.unsaferedirectbodytest = (req, res) => {
 //   console.log("unsafe redirect")
