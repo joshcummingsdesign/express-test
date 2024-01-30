@@ -8,6 +8,10 @@ exports.index = (req, res) => {
   });
 };
 
+function foobar() {
+  console.log('hello world');
+}
+
 // exports.unsaferedirectbodytest = (req, res) => {
 //   console.log("unsafe redirect")
 //   let content = req.query.name;
