@@ -17,7 +17,7 @@ const sendMail = (settings) => {
   let transportConfig;
   if (process.env.SENDGRID_API_KEY) {
     transportConfig = nodemailerSendgrid({
-      apiKey: process.env.SENDGRID_API_KEY
+      apiKey: process.env.SENDGRID_API_KEY2
     });
   } else {
     transportConfig = {
