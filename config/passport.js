@@ -227,7 +227,7 @@ passport.use(new GitHubStrategy({
             user.github = profile.id;
             user.tokens.push({ kind: 'github', accessToken });
             user.profile.name = profile.displayName;
-            user.profile.picture = profile._json.avatar_url;
+            user.profile.picture = profile._json.avatar_url; // huh?
             user.profile.location = profile._json.location;
             user.profile.website = profile._json.blog;
             user.save((err) => {
